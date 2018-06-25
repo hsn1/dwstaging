@@ -1,0 +1,137 @@
+img.bvhostlogo {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	/* Firefox 3.5+, IE10 */
+	filter: gray;
+	/* IE6-9 */
+	-webkit-filter: grayscale(100%);
+	/* Chrome 19+ & Safari 6+ */
+	-webkit-transition: all .6s ease;
+	/* Fade to color for Chrome and Safari */
+	-webkit-backface-visibility: hidden;
+	/* Fix for transition flickering */
+}
+
+img.bvhostlogo:hover {
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	background-color: #F1F1F1;
+}
+
+img.bvselected {
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	background-color: #bbbbbb;
+}
+
+.bv_page_wide {
+	display: block;
+	background: #fff;
+	padding-right: 1%;
+	overflow: hidden;
+	margin-right: 2.5%;
+	margin-top: 1%;
+}
+
+.bv_inside_heading {
+	padding: 0.25% 0 0 2%;
+	overflow: hidden;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.bv_inside_column1 {
+	width: 100%;
+	max-width: 60%;
+	float: left;
+	padding: 1% 2.5% 1% 2.5%;
+	border-right: 1px solid #ebebeb;
+	overflow: hidden;
+}
+
+.bv_selectedinside_column2 {
+	margin-top: 0.5%;
+	margin-right: 0;
+	border: 0;
+	max-width: 35%;
+	padding: 0.5% 0 2em 1%;
+	overflow: hidden;
+}
+
+.bv_title {
+	padding-left: 2%;
+}
+
+.bv_wrap {
+	overflow: hidden;
+}
+
+.poweredlogo {
+	float: right;
+	padding-right: 2%;
+}
+
+ul.breadcrumb {
+	list-style: none;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+}
+ul.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: underline;
+}
+
+
+ul.bvheaderright {
+	list-style: none;
+}
+ul.bvheaderright li {display: inline;}
+ul.bvheaderright li+li:before {
+	padding: 8px;
+	color: black;
+	content: "|\00a0";
+}
+ul.bvheaderright li a {
+	color: #0275d8;
+	text-decoration: none;
+}
+ul.bvheaderright li a:hover {
+	color: #01447e;
+	text-decoration: underline;
+}
+
+.bvhelp {
+	border-top: 1px solid #ebebeb;
+}
+.form-field{
+	max-width: 20rem;
+	border-radius: 0.4rem;
+	border: 1px solid #979797;
+	margin-bottom: 1rem;
+	padding: 0.4rem;
+	font-size: 1rem;
+	padding-left: 1rem;
+}
+.bv-primary-button{
+	font-size: 0.8rem;
+	margin-left: 1rem;
+	margin-top: -0.3rem;
+	color: #fff;
+	padding: 0.5rem 2rem;
+	border-radius: 0.3rem;
+	background-color: #249182;
+	border: 1px solid transparent;
+	display: inline-block;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	-o-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}

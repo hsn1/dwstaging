@@ -1,0 +1,6 @@
+# comment on 21-09-2015
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+
+Sitemap: https://www.datawinners.com/sitemap_index.xml

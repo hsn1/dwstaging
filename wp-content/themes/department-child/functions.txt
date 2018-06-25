@@ -1,0 +1,7 @@
+<?php
+
+/**********************/
+/* Include parent OCMX files */
+$folder = get_stylesheet_directory(). '/ocmx/';
+?>
+

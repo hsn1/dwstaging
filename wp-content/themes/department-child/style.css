@@ -1,0 +1,29 @@
+/*
+ Theme Name:   Department Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Department Child Theme
+ Author:       Vicky Pridgen
+ Author URI:   http://linkedin.com/in/vpridgen
+ Template:     department
+ Version:      1.0.0
+ Tags:         obox, department, childtheme 
+ Text Domain:  twenty-fourteen-child
+*/
+
+.help_icon{display: inline !important;}
+@import url("../department/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+
+
+<script type="text/javascript" src="https://www.datawinners.com/media/javascript/jquery.watermark.js"></script>
+<script type="text/javascript" src="https://www.datawinners.com/media/javascript/jquery.tools.min.js"></script>
+<script type="text/javascript" src="https://www.datawinners.com/media/javascript/global.js"></script>
+<script type="text/javascript" src="https://www.datawinners.com/media/javascript/tooltip.js"></script>
+<script type="text/javascript" src="https://www.datawinners.com/media/javascript/home/global_public.js"></script>
+
+<script src="https://www.datawinners.com/media/javascript/home/country_networks_en.js" type="text/javascript"></script>
+<script src="https://www.datawinners.com/media/javascript/home/pricing.js" type="text/javascript"></script>

@@ -1,0 +1,410 @@
+/*!
+ * jQuery UI CSS Framework 1.11.3
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/category/theming/
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Helvetica%2CArial%2Csans-serif&fwDefault=bold&fsDefault=14px&cornerRadius=4px&bgColorHeader=%23333&bgTextureHeader=highlight_hard&bgImgOpacityHeader=35&borderColorHeader=%23e78f08&fcHeader=%23ffffff&iconColorHeader=%23ffffff&bgColorContent=%23ffffff&bgTextureContent=highlight_soft&bgImgOpacityContent=100&borderColorContent=%233a9912&fcContent=%23333333&iconColorContent=%233a9912&bgColorDefault=%23333&bgTextureDefault=highlight_hard&bgImgOpacityDefault=100&borderColorDefault=%23cccccc&fcDefault=%23ffffff&iconColorDefault=%23ffffff&bgColorHover=%23000&bgTextureHover=highlight_hard&bgImgOpacityHover=100&borderColorHover=%23ffffff&fcHover=%23ffffff&iconColorHover=%23ffffff&bgColorActive=%233a9912&bgTextureActive=highlight_hard&bgImgOpacityActive=65&borderColorActive=%23fbd850&fcActive=%23ffffff&iconColorActive=%23ffffff&bgColorHighlight=%23232012&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=75&borderColorHighlight=%23fed22f&fcHighlight=%23363636&iconColorHighlight=%23228ef1&bgColorError=%23b81900&bgTextureError=diagonals_thick&bgImgOpacityError=18&borderColorError=%23cd0a0a&fcError=%23ffffff&iconColorError=%23ffd27a&bgColorOverlay=%23666666&bgTextureOverlay=diagonals_thick&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=%23000000&bgTextureShadow=flat&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px&tr%26ffDefault=Helvetica%2CArial%2Csans-serif
+ */
+
+
+/* Component containers
+----------------------------------*/
+.wpui-custom .ui-widget {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+.wpui-custom .ui-widget .ui-widget {
+	font-size: 1em;
+}
+.wpui-custom .ui-widget input,
+.wpui-custom .ui-widget select,
+.wpui-custom .ui-widget textarea,
+.wpui-custom .ui-widget button {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1em;
+}
+.wpui-custom .ui-widget-content {
+	border: 1px solid #3a9912;
+	background: #ffffff url("images/ui-bg_highlight-soft_100_ffffff_1x100.png") 50% top repeat-x;
+	color: #333333;
+}
+.wpui-custom .ui-widget-content a {
+	color: #333333;
+}
+.wpui-custom .ui-widget-header {
+	border: 1px solid #e78f08;
+	background: #333 url("images/ui-bg_highlight-hard_35_333_1x100.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+}
+.wpui-custom .ui-widget-header a {
+	color: #ffffff;
+}
+
+/* Interaction states
+----------------------------------*/
+.wpui-custom .ui-state-default,
+.wpui-custom .ui-widget-content .ui-state-default,
+.wpui-custom .ui-widget-header .ui-state-default {
+	border: 1px solid #cccccc;
+	background: #333 url("images/ui-bg_highlight-hard_100_333_1x100.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+}
+.wpui-custom .ui-state-default a,
+.wpui-custom .ui-state-default a:link,
+.wpui-custom .ui-state-default a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.wpui-custom .ui-state-hover,
+.wpui-custom .ui-widget-content .ui-state-hover,
+.wpui-custom .ui-widget-header .ui-state-hover,
+.wpui-custom .ui-state-focus,
+.wpui-custom .ui-widget-content .ui-state-focus,
+.wpui-custom .ui-widget-header .ui-state-focus {
+	border: 1px solid #ffffff;
+	background: #000 url("images/ui-bg_highlight-hard_100_000_1x100.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+}
+.wpui-custom .ui-state-hover a,
+.wpui-custom .ui-state-hover a:hover,
+.wpui-custom .ui-state-hover a:link,
+.wpui-custom .ui-state-hover a:visited,
+.wpui-custom .ui-state-focus a,
+.wpui-custom .ui-state-focus a:hover,
+.wpui-custom .ui-state-focus a:link,
+.wpui-custom .ui-state-focus a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.wpui-custom .ui-state-active,
+.wpui-custom .ui-widget-content .ui-state-active,
+.wpui-custom .ui-widget-header .ui-state-active {
+	border: 1px solid #fbd850;
+	background: #3a9912 url("images/ui-bg_highlight-hard_65_3a9912_1x100.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+}
+.wpui-custom .ui-state-active a,
+.wpui-custom .ui-state-active a:link,
+.wpui-custom .ui-state-active a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.wpui-custom .ui-state-highlight,
+.wpui-custom .ui-widget-content .ui-state-highlight,
+.wpui-custom .ui-widget-header .ui-state-highlight {
+	border: 1px solid #fed22f;
+	background: #232012 url("images/ui-bg_highlight-soft_75_232012_1x100.png") 50% top repeat-x;
+	color: #363636;
+}
+.wpui-custom .ui-state-highlight a,
+.wpui-custom .ui-widget-content .ui-state-highlight a,
+.wpui-custom .ui-widget-header .ui-state-highlight a {
+	color: #363636;
+}
+.wpui-custom .ui-state-error,
+.wpui-custom .ui-widget-content .ui-state-error,
+.wpui-custom .ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #b81900 url("images/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;
+	color: #ffffff;
+}
+.wpui-custom .ui-state-error a,
+.wpui-custom .ui-widget-content .ui-state-error a,
+.wpui-custom .ui-widget-header .ui-state-error a {
+	color: #ffffff;
+}
+.wpui-custom .ui-state-error-text,
+.wpui-custom .ui-widget-content .ui-state-error-text,
+.wpui-custom .ui-widget-header .ui-state-error-text {
+	color: #ffffff;
+}
+.wpui-custom .ui-priority-primary,
+.wpui-custom .ui-widget-content .ui-priority-primary,
+.wpui-custom .ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.wpui-custom .ui-priority-secondary,
+.wpui-custom .ui-widget-content .ui-priority-secondary,
+.wpui-custom .ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70); /* support: IE8 */
+	font-weight: normal;
+}
+.wpui-custom .ui-state-disabled,
+.wpui-custom .ui-widget-content .ui-state-disabled,
+.wpui-custom .ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35); /* support: IE8 */
+	background-image: none;
+}
+.wpui-custom .ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* support: IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.wpui-custom .ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.wpui-custom .ui-icon,
+.wpui-custom .ui-widget-content .ui-icon {
+	background-image: url("images/ui-icons_3a9912_256x240.png");
+}
+.wpui-custom .ui-widget-header .ui-icon {
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+.wpui-custom .ui-state-default .ui-icon {
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+.wpui-custom .ui-state-hover .ui-icon,
+.wpui-custom .ui-state-focus .ui-icon {
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+.wpui-custom .ui-state-active .ui-icon {
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+.wpui-custom .ui-state-highlight .ui-icon {
+	background-image: url("images/ui-icons_228ef1_256x240.png");
+}
+.wpui-custom .ui-state-error .ui-icon,
+.wpui-custom .ui-state-error-text .ui-icon {
+	background-image: url("images/ui-icons_ffd27a_256x240.png");
+}
+
+/* positioning */
+.wpui-custom .ui-icon-blank { background-position: 16px 16px; }
+.wpui-custom .ui-icon-carat-1-n { background-position: 0 0; }
+.wpui-custom .ui-icon-carat-1-ne { background-position: -16px 0; }
+.wpui-custom .ui-icon-carat-1-e { background-position: -32px 0; }
+.wpui-custom .ui-icon-carat-1-se { background-position: -48px 0; }
+.wpui-custom .ui-icon-carat-1-s { background-position: -64px 0; }
+.wpui-custom .ui-icon-carat-1-sw { background-position: -80px 0; }
+.wpui-custom .ui-icon-carat-1-w { background-position: -96px 0; }
+.wpui-custom .ui-icon-carat-1-nw { background-position: -112px 0; }
+.wpui-custom .ui-icon-carat-2-n-s { background-position: -128px 0; }
+.wpui-custom .ui-icon-carat-2-e-w { background-position: -144px 0; }
+.wpui-custom .ui-icon-triangle-1-n { background-position: 0 -16px; }
+.wpui-custom .ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.wpui-custom .ui-icon-triangle-1-e { background-position: -32px -16px; }
+.wpui-custom .ui-icon-triangle-1-se { background-position: -48px -16px; }
+.wpui-custom .ui-icon-triangle-1-s { background-position: -64px -16px; }
+.wpui-custom .ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.wpui-custom .ui-icon-triangle-1-w { background-position: -96px -16px; }
+.wpui-custom .ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.wpui-custom .ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.wpui-custom .ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.wpui-custom .ui-icon-arrow-1-n { background-position: 0 -32px; }
+.wpui-custom .ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.wpui-custom .ui-icon-arrow-1-e { background-position: -32px -32px; }
+.wpui-custom .ui-icon-arrow-1-se { background-position: -48px -32px; }
+.wpui-custom .ui-icon-arrow-1-s { background-position: -64px -32px; }
+.wpui-custom .ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.wpui-custom .ui-icon-arrow-1-w { background-position: -96px -32px; }
+.wpui-custom .ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.wpui-custom .ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.wpui-custom .ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.wpui-custom .ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.wpui-custom .ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.wpui-custom .ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.wpui-custom .ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.wpui-custom .ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.wpui-custom .ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.wpui-custom .ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.wpui-custom .ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.wpui-custom .ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.wpui-custom .ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.wpui-custom .ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.wpui-custom .ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.wpui-custom .ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.wpui-custom .ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.wpui-custom .ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.wpui-custom .ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.wpui-custom .ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.wpui-custom .ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.wpui-custom .ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.wpui-custom .ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.wpui-custom .ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.wpui-custom .ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.wpui-custom .ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.wpui-custom .ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.wpui-custom .ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.wpui-custom .ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.wpui-custom .ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.wpui-custom .ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.wpui-custom .ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.wpui-custom .ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.wpui-custom .ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.wpui-custom .ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.wpui-custom .ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.wpui-custom .ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.wpui-custom .ui-icon-arrow-4 { background-position: 0 -80px; }
+.wpui-custom .ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.wpui-custom .ui-icon-extlink { background-position: -32px -80px; }
+.wpui-custom .ui-icon-newwin { background-position: -48px -80px; }
+.wpui-custom .ui-icon-refresh { background-position: -64px -80px; }
+.wpui-custom .ui-icon-shuffle { background-position: -80px -80px; }
+.wpui-custom .ui-icon-transfer-e-w { background-position: -96px -80px; }
+.wpui-custom .ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.wpui-custom .ui-icon-folder-collapsed { background-position: 0 -96px; }
+.wpui-custom .ui-icon-folder-open { background-position: -16px -96px; }
+.wpui-custom .ui-icon-document { background-position: -32px -96px; }
+.wpui-custom .ui-icon-document-b { background-position: -48px -96px; }
+.wpui-custom .ui-icon-note { background-position: -64px -96px; }
+.wpui-custom .ui-icon-mail-closed { background-position: -80px -96px; }
+.wpui-custom .ui-icon-mail-open { background-position: -96px -96px; }
+.wpui-custom .ui-icon-suitcase { background-position: -112px -96px; }
+.wpui-custom .ui-icon-comment { background-position: -128px -96px; }
+.wpui-custom .ui-icon-person { background-position: -144px -96px; }
+.wpui-custom .ui-icon-print { background-position: -160px -96px; }
+.wpui-custom .ui-icon-trash { background-position: -176px -96px; }
+.wpui-custom .ui-icon-locked { background-position: -192px -96px; }
+.wpui-custom .ui-icon-unlocked { background-position: -208px -96px; }
+.wpui-custom .ui-icon-bookmark { background-position: -224px -96px; }
+.wpui-custom .ui-icon-tag { background-position: -240px -96px; }
+.wpui-custom .ui-icon-home { background-position: 0 -112px; }
+.wpui-custom .ui-icon-flag { background-position: -16px -112px; }
+.wpui-custom .ui-icon-calendar { background-position: -32px -112px; }
+.wpui-custom .ui-icon-cart { background-position: -48px -112px; }
+.wpui-custom .ui-icon-pencil { background-position: -64px -112px; }
+.wpui-custom .ui-icon-clock { background-position: -80px -112px; }
+.wpui-custom .ui-icon-disk { background-position: -96px -112px; }
+.wpui-custom .ui-icon-calculator { background-position: -112px -112px; }
+.wpui-custom .ui-icon-zoomin { background-position: -128px -112px; }
+.wpui-custom .ui-icon-zoomout { background-position: -144px -112px; }
+.wpui-custom .ui-icon-search { background-position: -160px -112px; }
+.wpui-custom .ui-icon-wrench { background-position: -176px -112px; }
+.wpui-custom .ui-icon-gear { background-position: -192px -112px; }
+.wpui-custom .ui-icon-heart { background-position: -208px -112px; }
+.wpui-custom .ui-icon-star { background-position: -224px -112px; }
+.wpui-custom .ui-icon-link { background-position: -240px -112px; }
+.wpui-custom .ui-icon-cancel { background-position: 0 -128px; }
+.wpui-custom .ui-icon-plus { background-position: -16px -128px; }
+.wpui-custom .ui-icon-plusthick { background-position: -32px -128px; }
+.wpui-custom .ui-icon-minus { background-position: -48px -128px; }
+.wpui-custom .ui-icon-minusthick { background-position: -64px -128px; }
+.wpui-custom .ui-icon-close { background-position: -80px -128px; }
+.wpui-custom .ui-icon-closethick { background-position: -96px -128px; }
+.wpui-custom .ui-icon-key { background-position: -112px -128px; }
+.wpui-custom .ui-icon-lightbulb { background-position: -128px -128px; }
+.wpui-custom .ui-icon-scissors { background-position: -144px -128px; }
+.wpui-custom .ui-icon-clipboard { background-position: -160px -128px; }
+.wpui-custom .ui-icon-copy { background-position: -176px -128px; }
+.wpui-custom .ui-icon-contact { background-position: -192px -128px; }
+.wpui-custom .ui-icon-image { background-position: -208px -128px; }
+.wpui-custom .ui-icon-video { background-position: -224px -128px; }
+.wpui-custom .ui-icon-script { background-position: -240px -128px; }
+.wpui-custom .ui-icon-alert { background-position: 0 -144px; }
+.wpui-custom .ui-icon-info { background-position: -16px -144px; }
+.wpui-custom .ui-icon-notice { background-position: -32px -144px; }
+.wpui-custom .ui-icon-help { background-position: -48px -144px; }
+.wpui-custom .ui-icon-check { background-position: -64px -144px; }
+.wpui-custom .ui-icon-bullet { background-position: -80px -144px; }
+.wpui-custom .ui-icon-radio-on { background-position: -96px -144px; }
+.wpui-custom .ui-icon-radio-off { background-position: -112px -144px; }
+.wpui-custom .ui-icon-pin-w { background-position: -128px -144px; }
+.wpui-custom .ui-icon-pin-s { background-position: -144px -144px; }
+.wpui-custom .ui-icon-play { background-position: 0 -160px; }
+.wpui-custom .ui-icon-pause { background-position: -16px -160px; }
+.wpui-custom .ui-icon-seek-next { background-position: -32px -160px; }
+.wpui-custom .ui-icon-seek-prev { background-position: -48px -160px; }
+.wpui-custom .ui-icon-seek-end { background-position: -64px -160px; }
+.wpui-custom .ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.wpui-custom .ui-icon-seek-first { background-position: -80px -160px; }
+.wpui-custom .ui-icon-stop { background-position: -96px -160px; }
+.wpui-custom .ui-icon-eject { background-position: -112px -160px; }
+.wpui-custom .ui-icon-volume-off { background-position: -128px -160px; }
+.wpui-custom .ui-icon-volume-on { background-position: -144px -160px; }
+.wpui-custom .ui-icon-power { background-position: 0 -176px; }
+.wpui-custom .ui-icon-signal-diag { background-position: -16px -176px; }
+.wpui-custom .ui-icon-signal { background-position: -32px -176px; }
+.wpui-custom .ui-icon-battery-0 { background-position: -48px -176px; }
+.wpui-custom .ui-icon-battery-1 { background-position: -64px -176px; }
+.wpui-custom .ui-icon-battery-2 { background-position: -80px -176px; }
+.wpui-custom .ui-icon-battery-3 { background-position: -96px -176px; }
+.wpui-custom .ui-icon-circle-plus { background-position: 0 -192px; }
+.wpui-custom .ui-icon-circle-minus { background-position: -16px -192px; }
+.wpui-custom .ui-icon-circle-close { background-position: -32px -192px; }
+.wpui-custom .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.wpui-custom .ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.wpui-custom .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.wpui-custom .ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.wpui-custom .ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.wpui-custom .ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.wpui-custom .ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.wpui-custom .ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.wpui-custom .ui-icon-circle-zoomin { background-position: -176px -192px; }
+.wpui-custom .ui-icon-circle-zoomout { background-position: -192px -192px; }
+.wpui-custom .ui-icon-circle-check { background-position: -208px -192px; }
+.wpui-custom .ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.wpui-custom .ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.wpui-custom .ui-icon-circlesmall-close { background-position: -32px -208px; }
+.wpui-custom .ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.wpui-custom .ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.wpui-custom .ui-icon-squaresmall-close { background-position: -80px -208px; }
+.wpui-custom .ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.wpui-custom .ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.wpui-custom .ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.wpui-custom .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.wpui-custom .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.wpui-custom .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.wpui-custom .ui-corner-all,
+.wpui-custom .ui-corner-top,
+.wpui-custom .ui-corner-left,
+.wpui-custom .ui-corner-tl {
+	border-top-left-radius: 4px;
+}
+.wpui-custom .ui-corner-all,
+.wpui-custom .ui-corner-top,
+.wpui-custom .ui-corner-right,
+.wpui-custom .ui-corner-tr {
+	border-top-right-radius: 4px;
+}
+.wpui-custom .ui-corner-all,
+.wpui-custom .ui-corner-bottom,
+.wpui-custom .ui-corner-left,
+.wpui-custom .ui-corner-bl {
+	border-bottom-left-radius: 4px;
+}
+.wpui-custom .ui-corner-all,
+.wpui-custom .ui-corner-bottom,
+.wpui-custom .ui-corner-right,
+.wpui-custom .ui-corner-br {
+	border-bottom-right-radius: 4px;
+}
+
+/* Overlays */
+.wpui-custom .ui-widget-overlay {
+	background: #666666 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;
+	opacity: .5;
+	filter: Alpha(Opacity=50); /* support: IE8 */
+}
+.wpui-custom .ui-widget-shadow {
+	margin: -5px 0 0 -5px;
+	padding: 5px;
+	background: #000000 url("images/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;
+	opacity: .2;
+	filter: Alpha(Opacity=20); /* support: IE8 */
+	border-radius: 5px;
+}

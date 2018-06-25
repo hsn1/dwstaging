@@ -1,0 +1,1677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Department Child v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-10 10:37:40+0000\n"
+"Last-Translator: datawinners <keilerts@hni.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:5
+#@ ocmx
+msgid "(404) The page you are looking for does not exist."
+msgstr ""
+
+#: ajax/cart.php:9
+#: functions/contact-header.php:44
+#@ ocmx
+msgid "Shopping Bag"
+msgstr ""
+
+#: ajax/cart.php:10
+#: functions/contact-header.php:45
+#, php-format
+#@ default
+msgid "(%d)"
+msgid_plural "(%d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ajax/show-comments.php:42
+#@ ocmx
+msgid "1 Comment"
+msgstr ""
+
+#: archives.php:44
+#@ ocmx
+msgid "comments"
+msgstr ""
+
+#: comments.php:8
+#, php-format
+#@ ocmx
+msgid "One Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:19
+#@ ocmx
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:20
+#@ ocmx
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:21
+#@ ocmx
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:30
+#@ ocmx
+msgid "Comments are closed."
+msgstr ""
+
+#: contact.php:60
+#@ ocmx
+msgid "Find Us"
+msgstr ""
+
+#: functions/contact-header.php:32
+#@ default
+msgid "Facebook"
+msgstr ""
+
+#: functions/contact-header.php:33
+#@ default
+msgid "Twitter"
+msgstr ""
+
+#: functions/contact-header.php:34
+#@ default
+msgid "LinkedIn"
+msgstr ""
+
+#: functions/contact-header.php:35
+#@ default
+msgid "Google Plus"
+msgstr ""
+
+#: functions/contact-header.php:36
+#@ default
+msgid "Pinterest"
+msgstr ""
+
+#: functions/header-cart.php:23
+#@ ocmx
+msgid "View Cart"
+msgstr ""
+
+#: functions/header-cart.php:24
+#@ ocmx
+msgid "Checkout"
+msgstr ""
+
+#: functions/header-cart.php:27
+#@ woocommerce
+msgid "No products in the cart."
+msgstr ""
+
+#: functions/page-title.php:12
+#: ocmx/front-end/bread-crumbs.php:28
+#@ ocmx
+msgid "Shop"
+msgstr ""
+
+#: functions/post-empty.php:2
+#@ ocmx
+msgid "No Content Found"
+msgstr ""
+
+#: functions/post-empty.php:4
+#@ ocmx
+msgid "The content you are looking for does not exist"
+msgstr ""
+
+#: functions/post-list.php:42
+#: functions/post-title-meta.php:13
+#@ ocmx
+msgid "Posted by "
+msgstr ""
+
+#: functions/post-list.php:43
+#: functions/post-title-meta.php:14
+#@ ocmx
+msgid " | "
+msgstr ""
+
+#: functions/post-list.php:66
+#: ocmx/widgets/content-widget.php:213
+#@ ocmx
+msgid "Read More"
+msgstr ""
+
+#: functions/post-list.php:68
+#@ ocmx
+msgid "Leave a Comment"
+msgstr ""
+
+#: header.php:17
+#, php-format
+#@ ocmx
+msgid "Page %s"
+msgstr ""
+
+#: header.php:107
+#@ ocmx
+msgid "Menu"
+msgstr ""
+
+#: ocmx/front-end/bread-crumbs.php:10
+#@ ocmx
+msgid "Home"
+msgstr ""
+
+#: ocmx/front-end/bread-crumbs.php:21
+#@ ocmx
+msgid "Search"
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:17
+#@ ocmx
+msgid "Comment I.D. not found."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:21
+#@ ocmx
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:26
+#@ ocmx
+msgid "Comment on Draft"
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:44
+#@ ocmx
+msgid "Your email address has been blocked from commenting on this blog."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:64
+#@ ocmx
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:71
+#@ ocmx
+msgid "Error: please fill the required fields (name, email)."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:73
+#@ ocmx
+msgid "Error: please enter a valid email address."
+msgstr ""
+
+#: ocmx/front-end/comment-post.php:77
+#@ ocmx
+msgid "Error: please type a comment."
+msgstr ""
+
+#: ocmx/front-end/mopic-pagination.php:38
+#@ ocmx
+msgid "Page"
+msgstr ""
+
+#: ocmx/front-end/mopic-pagination.php:38
+#@ ocmx
+msgid "of"
+msgstr ""
+
+#: ocmx/includes/comments.php:13
+#@ ocmx
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ocmx/includes/comments.php:16
+#, php-format
+#@ default
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ocmx/includes/comments.php:17
+#, php-format
+#@ ocmx
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ocmx/includes/comments.php:18
+#@ ocmx
+msgid "(Edit)"
+msgstr ""
+
+#: ocmx/includes/media.php:59
+#@ ocmx
+msgid "Could not read image size"
+msgstr ""
+
+#: ocmx/includes/media.php:109
+#: ocmx/includes/media.php:112
+#: ocmx/includes/media.php:117
+#@ ocmx
+msgid "Resize path invalid"
+msgstr ""
+
+#: ocmx/includes/update-class.php:25
+#@ ocmx
+msgid "Invalid Data provided."
+msgstr ""
+
+#: ocmx/includes/update-class.php:26
+#@ ocmx
+msgid "Could not access filesystem."
+msgstr ""
+
+#: ocmx/includes/update-class.php:27
+#@ ocmx
+msgid "Filesystem error."
+msgstr ""
+
+#: ocmx/includes/update-class.php:28
+#@ ocmx
+msgid "Unable to locate WordPress Root directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:29
+#@ ocmx
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr ""
+
+#: ocmx/includes/update-class.php:30
+#@ ocmx
+msgid "Unable to locate WordPress Plugin directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:31
+#@ ocmx
+msgid "Unable to locate WordPress Theme directory."
+msgstr ""
+
+#. translators: %s: directory name
+#: ocmx/includes/update-class.php:33
+#, php-format
+#@ ocmx
+msgid "Unable to locate needed folder (%s)."
+msgstr ""
+
+#: ocmx/includes/update-class.php:35
+#@ ocmx
+msgid "Download failed."
+msgstr ""
+
+#: ocmx/includes/update-class.php:36
+#@ ocmx
+msgid "Installing the latest version&#8230;"
+msgstr ""
+
+#: ocmx/includes/update-class.php:37
+#@ ocmx
+msgid "Destination folder already exists."
+msgstr ""
+
+#: ocmx/includes/update-class.php:38
+#@ ocmx
+msgid "Could not create directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:39
+#@ ocmx
+msgid "Incompatible Archive."
+msgstr ""
+
+#: ocmx/includes/update-class.php:41
+#@ ocmx
+msgid "Enabling Maintenance mode&#8230;"
+msgstr ""
+
+#: ocmx/includes/update-class.php:42
+#@ ocmx
+msgid "Disabling Maintenance mode&#8230;"
+msgstr ""
+
+#: ocmx/interface/adverts.php:14
+#@ ocmx
+msgid "You have not set any adverts."
+msgstr ""
+
+#: ocmx/interface/fonts.php:41
+#@ ocmx
+msgid "Current Font"
+msgstr ""
+
+#: ocmx/interface/fonts.php:67
+#@ default
+msgid ""
+"Below is a general overview of how the typography manager affects Personal.\n"
+"            For further help with the Typography Manager, visit Theme Options > Help and click on Theme Documentation."
+msgstr ""
+
+#: ocmx/interface/fonts.php:73
+#@ ocmx
+msgid "General:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:74
+#@ ocmx
+msgid "Changes all 'general' text in the theme, such as the tagline, widget text, post meta and post text. Note that some of these elements can be overridden by other typography settings."
+msgstr ""
+
+#: ocmx/interface/fonts.php:77
+#@ ocmx
+msgid "Navigation:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:78
+#@ ocmx
+msgid "Affects your main menu only"
+msgstr ""
+
+#: ocmx/interface/fonts.php:82
+#@ ocmx
+msgid "Page Title:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:83
+#@ ocmx
+msgid "Affects the title in the title banner"
+msgstr ""
+
+#: ocmx/interface/fonts.php:86
+#@ ocmx
+msgid "Post Meta:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:87
+#@ ocmx
+msgid "Affects the date, author and category shown below the post titles."
+msgstr ""
+
+#: ocmx/interface/fonts.php:90
+#@ ocmx
+msgid "Post titles:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:91
+#@ ocmx
+msgid "Affects post and product titles only. Will not affect pages/portfolio"
+msgstr ""
+
+#: ocmx/interface/fonts.php:94
+#@ ocmx
+msgid "Post Copy:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:95
+#@ ocmx
+msgid "Changes the content text in posts and pages specifically."
+msgstr ""
+
+#: ocmx/interface/fonts.php:98
+#@ ocmx
+msgid "Widget titles:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:99
+#@ ocmx
+msgid "Affects widgets in the sidebar only"
+msgstr ""
+
+#: ocmx/interface/fonts.php:102
+#@ ocmx
+msgid "Footer Widget titles:"
+msgstr ""
+
+#: ocmx/interface/fonts.php:103
+#@ ocmx
+msgid "Affects widgets in the footer only"
+msgstr ""
+
+#: ocmx/interface/form-items.php:44
+#: ocmx/interface/form-items.php:46
+#: taxonomy-portfolio-category.php:33
+#@ ocmx
+msgid "All"
+msgstr ""
+
+#: ocmx/interface/form-items.php:48
+#@ ocmx
+msgid "Use a Custom Description"
+msgstr ""
+
+#: ocmx/interface/form-items.php:137
+#: ocmx/interface/form-items.php:183
+#@ ocmx
+msgid "Browse"
+msgstr ""
+
+#: ocmx/interface/form-items.php:138
+#@ ocmx
+msgid "Clear"
+msgstr ""
+
+#: ocmx/interface/form-items.php:141
+#@ ocmx
+msgid "Your  will not be automatically resized."
+msgstr ""
+
+#: ocmx/interface/form-items.php:149
+#@ ocmx
+msgid "Select from previously uploaded "
+msgstr ""
+
+#: ocmx/interface/form-items.php:149
+#@ ocmx
+msgid "'s"
+msgstr ""
+
+#: ocmx/interface/form-items.php:177
+#@ ocmx
+msgid "Default Icon"
+msgstr ""
+
+#: ocmx/interface/form-items.php:178
+#@ ocmx
+msgid "Clear Icon"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:27
+#@ ocmx
+msgid "Your changes were successful."
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:29
+#@ ocmx
+msgid "These Options Have Been Reset."
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:37
+#: ocmx/interface/ocmx-container.php:94
+#@ ocmx
+msgid "Reset"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:99
+#@ ocmx
+msgid "Image"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:111
+#@ ocmx
+msgid "Position"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:112
+#@ ocmx
+msgid "Background Position"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:115
+#@ ocmx
+msgid "Left"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:119
+#@ ocmx
+msgid "Center"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:123
+#@ ocmx
+msgid "Right"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:128
+#@ ocmx
+msgid "Repeat"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:129
+#@ ocmx
+msgid "Background Repeat"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:181
+#@ ocmx
+msgid ".mp4"
+msgstr ""
+
+#: ocmx/interface/post-type-meta.php:185
+#@ ocmx
+msgid ".ogv"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:304
+#@ ocmx
+msgid "layout"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:305
+#@ ocmx
+msgid "two-column"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:306
+#@ ocmx
+msgid "Layout"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:307
+#@ ocmx
+msgid "Select the layout of your page. (Affects Portfolio, Team, Testimonials, Services, and Partners"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:313
+#@ ocmx
+msgid "header_image"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:315
+#@ ocmx
+msgid "Custom Header Image"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:316
+#@ ocmx
+msgid "Select an image to carry through this post type."
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:317
+#@ ocmx
+msgid "background"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:331
+#@ ocmx
+msgid "orderby"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:333
+#: ocmx/widgets/content-widget.php:331
+#: ocmx/widgets/features-widget.php:193
+#: ocmx/widgets/hero-widget.php:284
+#: ocmx/widgets/hero-widget.php:369
+#: ocmx/widgets/hero-widget.php:471
+#: ocmx/widgets/product-content-widget.php:218
+#: ocmx/widgets/slider-widget.php:159
+#@ ocmx
+msgid "Order By"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:334
+#@ ocmx
+msgid "Select the 'order by' of your Portfolio list."
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:335
+#: ocmx/theme-setup/custom.php:343
+#@ ocmx
+msgid "select"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:336
+#@ ocmx
+msgid "Post Date"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:336
+#@ ocmx
+msgid "Post Title"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:336
+#@ ocmx
+msgid "Random"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:336
+#@ ocmx
+msgid "Comment Count"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:339
+#@ ocmx
+msgid "order"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:341
+#: ocmx/widgets/content-widget.php:339
+#: ocmx/widgets/features-widget.php:201
+#: ocmx/widgets/hero-widget.php:292
+#: ocmx/widgets/hero-widget.php:377
+#: ocmx/widgets/hero-widget.php:479
+#: ocmx/widgets/product-content-widget.php:226
+#: ocmx/widgets/slider-widget.php:167
+#@ ocmx
+msgid "Order"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:342
+#@ ocmx
+msgid "Select the order of your Portfolio list."
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:344
+#: ocmx/widgets/content-widget.php:341
+#: ocmx/widgets/features-widget.php:203
+#: ocmx/widgets/hero-widget.php:294
+#: ocmx/widgets/hero-widget.php:379
+#: ocmx/widgets/hero-widget.php:481
+#: ocmx/widgets/product-content-widget.php:228
+#: ocmx/widgets/slider-widget.php:169
+#@ ocmx
+msgid "Descending"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:344
+#: ocmx/widgets/content-widget.php:342
+#: ocmx/widgets/features-widget.php:204
+#: ocmx/widgets/hero-widget.php:295
+#: ocmx/widgets/hero-widget.php:380
+#: ocmx/widgets/hero-widget.php:482
+#: ocmx/widgets/product-content-widget.php:229
+#: ocmx/widgets/slider-widget.php:170
+#@ ocmx
+msgid "Ascending"
+msgstr ""
+
+#: ocmx/theme-setup/custom.php:591
+#@ ocmx
+msgid "Excerpt"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:6
+#@ ocmx
+msgid "General Theme Settings"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:18
+#@ ocmx
+msgid "Use Theme Default Color Scheme"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:37
+#@ ocmx
+msgid "Custom Logo"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:50
+#@ ocmx
+msgid "Custom Favicon"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:62
+#@ ocmx
+msgid "Reset Color Scheme settings."
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:63
+#@ ocmx
+msgid "Reset Color Scheme"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:64
+#@ ocmx
+msgid "Reset all Color Scheme settings back to their defaults. Once this is done it cannot be reversed."
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:179
+#@ ocmx
+msgid "Are you sure you want to clear all your customizer settings?"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:186
+#@ ocmx
+msgid "Your settings have been reset, click \"Okay\" to reaload the page"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Features"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Features"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:8
+#@ ocmx
+msgctxt "features"
+msgid "Add Features Item"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:9
+#@ ocmx
+msgid "Add New Features Item"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:10
+#: ocmx/theme-setup/portfolio-post-type.php:10
+#: ocmx/theme-setup/services-post-type.php:10
+#: ocmx/theme-setup/slider-post-type.php:10
+#@ ocmx
+msgid "Edit "
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:11
+#@ ocmx
+msgid "New Features Item"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:12
+#@ ocmx
+msgid "View Features Item"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:13
+#@ ocmx
+msgid "Search Features Items"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:14
+#@ ocmx
+msgid "No features items found"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:15
+#@ ocmx
+msgid "No features items found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:47
+#, php-format
+#@ ocmx
+msgid "Features Item updated. <a href=\"%s\">View features item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:48
+#: ocmx/theme-setup/partners-post-type.php:49
+#: ocmx/theme-setup/portfolio-post-type.php:70
+#: ocmx/theme-setup/services-post-type.php:48
+#: ocmx/theme-setup/slider-post-type.php:48
+#: ocmx/theme-setup/team-post-type.php:43
+#: ocmx/theme-setup/testimonials-post-type.php:47
+#@ ocmx
+msgid "Custom field updated."
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:49
+#: ocmx/theme-setup/partners-post-type.php:50
+#: ocmx/theme-setup/portfolio-post-type.php:71
+#: ocmx/theme-setup/services-post-type.php:49
+#: ocmx/theme-setup/slider-post-type.php:49
+#: ocmx/theme-setup/team-post-type.php:44
+#: ocmx/theme-setup/testimonials-post-type.php:48
+#@ ocmx
+msgid "Custom field deleted."
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:50
+#: ocmx/theme-setup/services-post-type.php:50
+#: ocmx/theme-setup/slider-post-type.php:50
+#@ ocmx
+msgid "Post updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ocmx/theme-setup/features-post-type.php:52
+#: ocmx/theme-setup/partners-post-type.php:53
+#: ocmx/theme-setup/portfolio-post-type.php:74
+#: ocmx/theme-setup/services-post-type.php:52
+#: ocmx/theme-setup/slider-post-type.php:52
+#: ocmx/theme-setup/team-post-type.php:47
+#: ocmx/theme-setup/testimonials-post-type.php:51
+#, php-format
+#@ ocmx
+msgid "Product restored to revision from %s"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:53
+#, php-format
+#@ ocmx
+msgid "Features Item published. <a href=\"%s\">View features item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:54
+#: ocmx/theme-setup/services-post-type.php:54
+#@ ocmx
+msgid "Post saved."
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:55
+#, php-format
+#@ ocmx
+msgid "Features Item submitted. <a target=\"_blank\" href=\"%s\">Preview features item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/features-post-type.php:56
+#, php-format
+#@ ocmx
+msgid "Features Item draft updated. <a target=\"_blank\" href=\"%s\">Preview features item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Partners"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Partners"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:8
+#@ ocmx
+msgctxt "partners"
+msgid "Add Partners Item"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:9
+#@ ocmx
+msgid "Add New Partners Item"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:10
+#: ocmx/theme-setup/team-post-type.php:10
+#: ocmx/theme-setup/testimonials-post-type.php:10
+#@ ocmx
+msgid "Edit"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:11
+#@ ocmx
+msgid "New Partners Item"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:12
+#@ ocmx
+msgid "View Partners Item"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:13
+#@ ocmx
+msgid "Search Partners Items"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:14
+#@ ocmx
+msgid "No partners items found"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:15
+#@ ocmx
+msgid "No partners items found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:48
+#, php-format
+#@ default
+msgid "Partners Item updated. <a href=\"%s\">View partners item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:51
+#: ocmx/theme-setup/portfolio-post-type.php:72
+#: ocmx/theme-setup/team-post-type.php:45
+#: ocmx/theme-setup/testimonials-post-type.php:49
+#@ ocmx
+msgid "Product updated."
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:54
+#, php-format
+#@ default
+msgid "Partners Item published. <a href=\"%s\">View partners item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:55
+#: ocmx/theme-setup/portfolio-post-type.php:76
+#: ocmx/theme-setup/slider-post-type.php:54
+#: ocmx/theme-setup/team-post-type.php:49
+#: ocmx/theme-setup/testimonials-post-type.php:53
+#@ ocmx
+msgid "Product saved."
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:56
+#, php-format
+#@ default
+msgid "Partners Item submitted. <a target=\"_blank\" href=\"%s\">Preview partners item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/partners-post-type.php:57
+#, php-format
+#@ default
+msgid "Partners Item draft updated. <a target=\"_blank\" href=\"%s\">Preview partners item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:8
+#@ ocmx
+msgctxt "portfolio"
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:9
+#@ ocmx
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:11
+#@ ocmx
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:12
+#@ ocmx
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:13
+#@ ocmx
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:14
+#@ ocmx
+msgid "No portfolio items found"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:15
+#@ ocmx
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:45
+#@ ocmx
+msgctxt "taxonomy general name"
+msgid "Portofolio Tags"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:46
+#@ ocmx
+msgctxt "taxonomy singular name"
+msgid "Portofolio Tag"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:47
+#@ ocmx
+msgid "Search Portofolio Tags"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:48
+#@ ocmx
+msgid "All Portofolio Tags"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:49
+#@ ocmx
+msgid "Edit Portofolio Tag"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:50
+#@ ocmx
+msgid "Update Portofolio Tag"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:51
+#@ ocmx
+msgid "Add New Portofolio Tag"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:52
+#@ ocmx
+msgid "New Portofolio Tag Name"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:53
+#@ ocmx
+msgid "Portofolio Tags"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:69
+#, php-format
+#@ default
+msgid "Portfolio Item updated. <a href=\"%s\">View portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:75
+#, php-format
+#@ ocmx
+msgid "Portfolio Item published. <a href=\"%s\">View portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:77
+#, php-format
+#@ ocmx
+msgid "Portfolio Item submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/portfolio-post-type.php:78
+#, php-format
+#@ ocmx
+msgid "Portfolio Item draft updated. <a target=\"_blank\" href=\"%s\">Preview portfolio item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Services"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Services"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:8
+#@ ocmx
+msgctxt "services"
+msgid "Add Services Item"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:9
+#@ ocmx
+msgid "Add New Services Item"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:11
+#@ ocmx
+msgid "New Services Item"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:12
+#@ ocmx
+msgid "View Services Item"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:13
+#@ ocmx
+msgid "Search Services Items"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:14
+#@ ocmx
+msgid "No services items found"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:15
+#@ ocmx
+msgid "No services items found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:47
+#, php-format
+#@ ocmx
+msgid "Services Item updated. <a href=\"%s\">View services item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:53
+#, php-format
+#@ ocmx
+msgid "Services Item published. <a href=\"%s\">View services item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:55
+#, php-format
+#@ ocmx
+msgid "Services Item submitted. <a target=\"_blank\" href=\"%s\">Preview services item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/services-post-type.php:56
+#, php-format
+#@ ocmx
+msgid "Services Item draft updated. <a target=\"_blank\" href=\"%s\">Preview services item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Slider"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Slider"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:8
+#@ ocmx
+msgctxt "slider"
+msgid "Add Slider Item"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:9
+#@ ocmx
+msgid "Add New Slider Item"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:11
+#@ ocmx
+msgid "New Slider Item"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:12
+#@ ocmx
+msgid "View Slider Item"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:13
+#@ ocmx
+msgid "Search Slider Items"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:14
+#@ ocmx
+msgid "No slider items found"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:15
+#@ ocmx
+msgid "No slider items found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:47
+#, php-format
+#@ ocmx
+msgid "Slider Item updated. <a href=\"%s\">View slider item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:53
+#, php-format
+#@ ocmx
+msgid "Slider Item published. <a href=\"%s\">View slider item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:55
+#, php-format
+#@ ocmx
+msgid "Slider Item submitted. <a target=\"_blank\" href=\"%s\">Preview slider item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/slider-post-type.php:56
+#, php-format
+#@ ocmx
+msgid "Slider Item draft updated. <a target=\"_blank\" href=\"%s\">Preview slider item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Team"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Team"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:8
+#@ ocmx
+msgctxt "team"
+msgid "Add Team Member"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:9
+#@ ocmx
+msgid "Add New Team Member"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:11
+#@ ocmx
+msgid "New Team Member"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:12
+#@ ocmx
+msgid "View Team Member"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:13
+#@ ocmx
+msgid "Search Team"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:14
+#@ ocmx
+msgid "No team members found"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:15
+#@ ocmx
+msgid "No team members found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:42
+#, php-format
+#@ default
+msgid "Team Item updated. <a href=\"%s\">View team item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:48
+#, php-format
+#@ default
+msgid "Team Item published. <a href=\"%s\">View team item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:50
+#, php-format
+#@ default
+msgid "Team Item submitted. <a target=\"_blank\" href=\"%s\">Preview team item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/team-post-type.php:51
+#, php-format
+#@ default
+msgid "Team Item draft updated. <a target=\"_blank\" href=\"%s\">Preview team item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:6
+#@ ocmx
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:7
+#@ ocmx
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:8
+#@ ocmx
+msgctxt "testimonials"
+msgid "Add Testimonials"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:9
+#@ ocmx
+msgid "Add New Testimonials"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:11
+#@ ocmx
+msgid "New Testimonial"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:12
+#@ ocmx
+msgid "View Testimonial"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:13
+#@ ocmx
+msgid "Search Testimonials"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:14
+#@ ocmx
+msgid "No testimonials"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:15
+#@ ocmx
+msgid "No testimonials found in Trash"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:46
+#, php-format
+#@ default
+msgid "Testimonials Item updated. <a href=\"%s\">View testimonials item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:52
+#, php-format
+#@ default
+msgid "Testimonials Item published. <a href=\"%s\">View testimonials item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:54
+#, php-format
+#@ default
+msgid "Testimonials Item submitted. <a target=\"_blank\" href=\"%s\">Preview testimonials item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/testimonials-post-type.php:55
+#, php-format
+#@ default
+msgid "Testimonials Item draft updated. <a target=\"_blank\" href=\"%s\">Preview testimonials item</a>"
+msgstr ""
+
+#: ocmx/theme-setup/theme-support.php:10
+#@ $obox_themename
+msgid "Top Navigation"
+msgstr ""
+
+#: ocmx/theme-setup/theme-support.php:11
+#@ $obox_themename
+msgid "Primary Navigation"
+msgstr ""
+
+#: ocmx/theme-setup/theme-support.php:12
+#@ $obox_themename
+msgid "Footer Navigation"
+msgstr ""
+
+#: ocmx/widgets/advert-widget.php:6
+#@ default
+msgid "(Obox) 125 x 125 Adverts"
+msgstr ""
+
+#: ocmx/widgets/category-wiget.php:98
+#: ocmx/widgets/content-widget.php:256
+#: ocmx/widgets/features-widget.php:149
+#: ocmx/widgets/partners-widget.php:140
+#: ocmx/widgets/product-content-widget.php:157
+#@ ocmx
+msgid "Custom Title Link"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:5
+#@ ocmx
+msgid "(Obox) Content Widget"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:249
+#: ocmx/widgets/features-widget.php:142
+#: ocmx/widgets/partners-widget.php:135
+#: ocmx/widgets/product-content-widget.php:150
+#@ ocmx
+msgid "Click Save after selecting a filter from each menu to load the next filter"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:252
+#: ocmx/widgets/partners-widget.php:137
+#: ocmx/widgets/product-content-widget.php:153
+#: ocmx/widgets/thumbnail-slider-widget.php:74
+#@ ocmx
+msgid "Title"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:260
+#@ ocmx
+msgid "Display"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:277
+#@ ocmx
+msgid "Filter by"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:306
+#: ocmx/widgets/partners-widget.php:168
+#: ocmx/widgets/product-content-widget.php:193
+#@ ocmx
+msgid "Column Layout"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:315
+#: ocmx/widgets/features-widget.php:177
+#: ocmx/widgets/partners-widget.php:176
+#: ocmx/widgets/product-content-widget.php:202
+#: ocmx/widgets/slider-widget.php:148
+#@ ocmx
+msgid "Post Count"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:348
+#: ocmx/widgets/features-widget.php:208
+#: ocmx/widgets/hero-widget.php:385
+#@ ocmx
+msgid "Show Images or Videos?"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:350
+#: ocmx/widgets/features-widget.php:210
+#: ocmx/widgets/hero-widget.php:387
+#@ ocmx
+msgid "None"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:351
+#: ocmx/widgets/features-widget.php:211
+#: ocmx/widgets/hero-widget.php:388
+#@ ocmx
+msgid "Featured Thumbnails"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:352
+#: ocmx/widgets/features-widget.php:212
+#: ocmx/widgets/hero-widget.php:389
+#@ ocmx
+msgid "Videos"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:359
+#@ ocmx
+msgid "Show Position"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:359
+#@ ocmx
+msgid "Show Date"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:366
+#@ ocmx
+msgid "Show Social Links"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:366
+#: ocmx/widgets/features-widget.php:219
+#: ocmx/widgets/hero-widget.php:403
+#: ocmx/widgets/partners-widget.php:198
+#@ ocmx
+msgid "Show Excerpts"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:371
+#: ocmx/widgets/hero-widget.php:408
+#: ocmx/widgets/page-widget.php:162
+#: ocmx/widgets/partners-widget.php:202
+#@ ocmx
+msgid "Excerpt Length (character count)"
+msgstr ""
+
+#: ocmx/widgets/content-widget.php:377
+#@ ocmx
+msgid "Show 'Read More' Link"
+msgstr ""
+
+#: ocmx/widgets/facebook-widget.php:5
+#@ ocmx
+msgid "(Obox) Facebook Like Box"
+msgstr ""
+
+#: ocmx/widgets/facebook-widget.php:5
+#@ ocmx
+msgid "Display a Facebook Like Box."
+msgstr ""
+
+#: ocmx/widgets/features-widget.php:5
+#@ ocmx
+msgid "(Obox) Features Widget"
+msgstr ""
+
+#: ocmx/widgets/features-widget.php:226
+#@ ocmx
+msgid "Show Content"
+msgstr ""
+
+#: ocmx/widgets/hero-widget.php:7
+#@ ocmx
+msgid "(Obox) Hero Widget"
+msgstr ""
+
+#: ocmx/widgets/hero-widget.php:336
+#@ ocmx
+msgid "Middle Column"
+msgstr ""
+
+#: ocmx/widgets/hero-widget.php:396
+#@ ocmx
+msgid "Show 'Add to Cart' button"
+msgstr ""
+
+#: ocmx/widgets/medium-advert-widget.php:6
+#@ default
+msgid "(Obox) Large Adverts"
+msgstr ""
+
+#: ocmx/widgets/page-widget.php:6
+#@ ocmx
+msgid "(Obox) Page Widget"
+msgstr ""
+
+#: ocmx/widgets/partners-widget.php:5
+#@ ocmx
+msgid "(Obox) Partners Widget"
+msgstr ""
+
+#: ocmx/widgets/partners-widget.php:192
+#@ ocmx
+msgid "Show Title"
+msgstr ""
+
+#: ocmx/widgets/popular-posts-widget.php:5
+#@ ocmx
+msgid "Popular Posts widget."
+msgstr ""
+
+#: ocmx/widgets/popular-posts-widget.php:6
+#@ ocmx
+msgid "(Obox) Popular Posts"
+msgstr ""
+
+#: ocmx/widgets/product-content-widget.php:5
+#@ ocmx
+msgid "(Obox) Product Content Widget"
+msgstr ""
+
+#: ocmx/widgets/product-content-widget.php:163
+#@ ocmx
+msgid "Product Content Options"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:4
+#@ ocmx
+msgid "(Obox) Slider"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:4
+#@ ocmx
+msgid "Display fading posts and images from a speficic category"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:112
+#: single-portfolio.php:89
+#@ ocmx
+msgid "Previous"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:113
+#: ocmx/widgets/thumbnail-slider-widget.php:43
+#: single-portfolio.php:88
+#@ ocmx
+msgid "Next"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:176
+#: ocmx/widgets/testimonials-widget.php:110
+#@ ocmx
+msgid "Auto Slide Interval (seconds)"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:178
+#: ocmx/widgets/testimonials-widget.php:110
+#@ ocmx
+msgid "(Set to 0 for no auto-sliding)"
+msgstr ""
+
+#: ocmx/widgets/social-widget.php:80
+#@ ocmx
+msgid "Enter the full URL to your profiles. Example: http://www.facebook.com/oboxthemes"
+msgstr ""
+
+#: ocmx/widgets/testimonials-widget.php:90
+#@ ocmx
+msgid "Testimonials"
+msgstr ""
+
+#: ocmx/widgets/thumbnail-slider-widget.php:5
+#@ ocmx
+msgid "Display your featured images or videos in a neat fading widget."
+msgstr ""
+
+#: ocmx/widgets/thumbnail-slider-widget.php:6
+#@ ocmx
+msgid "(Obox) Thumbnail Slider"
+msgstr ""
+
+#: ocmx/widgets/thumbnail-slider-widget.php:42
+#@ ocmx
+msgid "Prev"
+msgstr ""
+
+#: ocmx/widgets/twitter-widget.php:5
+#@ ocmx
+msgid "(Obox) Twitter Stream"
+msgstr ""
+
+#: ocmx/widgets/twitter-widget.php:5
+#@ ocmx
+msgid "Display your latest Tweets."
+msgstr ""
+
+#: ocmx/widgets/twitter-widget.php:91
+#@ ocmx
+msgid "Enter the HTML color code for your desired link color, ie #000000. Default is Twitter Blue."
+msgstr ""
+
+#: ocmx/widgets/twitter-widget.php:94
+#@ ocmx
+msgid "Enter the maximum height in pixels for the widget to adjust for the number of tweets, ie 300."
+msgstr ""
+
+#: single-portfolio.php:25
+#@ ocmx
+msgid "View Website"
+msgstr ""
+
+#: single-services.php:35
+#@ ocmx
+msgid "Related Services"
+msgstr ""
+

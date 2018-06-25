@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 mars 2015, 09:59:45
+    Author     : Andry
+*/
+
+body{
+    max-width: 920px;
+    font-size:11px;
+}
+.copy h3
+{
+ font-size:14px;   
+}
+.copy form
+{
+    display: none;
+}
+#left-column
+{
+    width: 100% !important;
+    height:380px;
+}
+.qafp-faq .active
+{
+    background: none repeat scroll 0 0 #323232 !important;
+}
+
+.qafp-faq-title
+{
+    height:auto;
+    background: none repeat scroll 0 0 #fff !important;
+    font-size: 14px;
+    line-height: 18px;
+    border:none;
+    border-top: 1px solid #cccccc;
+      
+}
+.qafp-faq-title a.qafp-faq-anchor
+{
+    text-decoration: none;
+    color:#4682b4 !important;
+}
+.active a.qafp-faq-anchor
+{
+    color:#fff !important;
+}
+.qafp-faqs
+{
+    max-height:435px;
+    min-height:100px;
+    height:auto;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+#content{
+    padding: 0px 0px;
+}
+.qafp-faq-answer
+{
+    border:1px solid #ccc;
+}
+.qafp-faq-answer p
+{
+    font-size:13px;
+}
+.copy .footer-help
+{
+    padding-top: 10px;
+    background-color: #F2F2F2;
+    display: inherit !important;
+}
+.faq-catname{
+    display:none;
+}
+.paragraph-search
+{display:none;}
+#left-column .copy .qafp-faq-answer ul {margin-bottom: 0px;font-size: 13px;text-indent: -1em;}
+#left-column .copy .qafp-faq-answer ol {margin-bottom: 0px;font-size: 13px;}
